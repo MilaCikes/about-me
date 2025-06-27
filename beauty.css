@@ -1,0 +1,25 @@
+body {
+  background: pink;
+  padding: 20px;
+
+  color: blanchedalmond;
+  h1 {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+  }
+
+  p {
+    font-size: 20px;
+    margin: 0;
+  }
+  p + p {
+    margin-top: 5px;
+  }
+
+  img {
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+}
